@@ -1,0 +1,68 @@
+{   
+    "time": 
+    {   "updated": "Dec 4, 2020 11:36:00 UTC", 
+        "updatedISO": "2020-12-04T11:36:00+00:00", 
+        "updateduk": "Dec 4, 2020 at 11:36 GMT" 
+    }, 
+    "disclaimer": "This data was produced from cake", 
+    "chartName": "cake", 
+    "products": 
+    [ 
+        { 
+            "id":1,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "mille feuille",
+            "description": "Praliné aux noisettes du Piémont",
+            "quantity": 6
+        }, 
+        { 
+            "id":2,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "carré blanc",
+            "description": "Amandes, marmelade de poires et d'airelles ",
+            "quantity": 6
+        },
+        { 
+            "id":3,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "tartelette chocolat",
+            "description": "Chocolat au lait, praliné feuiletté",
+            "quantity": 6
+        },
+        { 
+            "id":4,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "Macaron Framboise",
+            "description": "Rose, framboise & letchi",
+            "quantity": 6
+        },
+        { 
+            "id":5,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "mille feuille",
+            "description": "Praliné aux noisettes du Piémont",
+            "quantity": 6
+        },
+        { 
+            "id":6,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "carré blanc",
+            "description": "Amandes, marmelade de poires et d'airelles ",
+            "quantity": 6
+        },
+        { 
+            "id":7,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "tartelette chocolat",
+            "description": "Chocolat au lait, praliné feuiletté",
+            "quantity": 6
+        },
+        { 
+            "id":8,
+            "image":"../img/2000_feuilles.jpg",
+            "name": "Macaron Framboise",
+            "description": "Rose, framboise & letchi",
+            "quantity": 6
+        }         
+    ]
+}

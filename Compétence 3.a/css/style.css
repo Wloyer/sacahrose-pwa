@@ -1,0 +1,287 @@
+/* générale */
+
+/*Couleur du théme principale::
+
+ color rouge:          #A60321/
+ color bleu claire:    #034AA6/3,74,166
+ color bleu marine:    #023373/2,51,115
+ color orange claire : #F28705/242,135,5
+ color orange foncé:   #F25C05/242,92,5
+
+ POLICE:
+
+ font-family: alex-brush, sans-serif;
+ */
+
+
+ body, html{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+  }
+.fond{
+  background: rgb(166,3,33);
+  background: linear-gradient(90deg, rgba(166,3,33,1) 8%, rgba(242,92,5,1) 49%, rgba(242,135,5,1) 86%);
+  size: 100%;
+}
+.ancrage:hover{
+    text-decoration: none;
+    color:  #A60321 ;
+}
+.ancrage{
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #F25C05;
+}
+.container-fluid{
+    padding: 0px;
+}
+ /*Header************************************************************************************************/
+
+.nav-interieur{
+    float: right;
+    word-spacing: 10px;
+}
+.nav-custom{
+    font-size: 30px;
+    height: 80px;
+    line-height: 70px; 
+    background: linear-gradient(180deg, rgba(2,51,115,1) 65%, rgba(3,74,166,1) 86%);
+    border-radius: 0px 0px 5px 5px;
+}
+.customnav{
+  background: linear-gradient(180deg, rgba(2,51,115,1) 65%, rgba(3,74,166,1) 86%);
+  border-radius: 0px 0px 5px 5px;
+}
+/* main ***************************************************************************************************/
+
+.titre, .titre1{
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 40px;
+}
+h1,h2,h3,p{
+  
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: #023373;
+}
+h4{
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cadre{
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.5102415966386555) 45%, rgba(255,255,255,1) 85%);
+  box-shadow: 5px 5px 5px;
+  border-radius: 5px;
+}
+.espaceh3{
+  height: 50px;
+}
+.carouselCustom{
+  box-shadow: 5px 5px 5px;
+}
+.card{
+  box-shadow: 5px 5px 5px;
+}
+/* footer *************************************************************************************************/
+
+footer{
+  align-content: center;
+  text-align:center; 
+  height: 50px;	 
+  line-height: 120px;  
+  margin-left:-100%; 
+  margin-right:-100%;
+  height:auto;
+  background: rgb(2,51,115);
+ background: linear-gradient(0deg, rgba(2,51,115,1) 45%, rgba(3,74,166,1) 85%);
+  color: #F25C05;
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer-line{ 
+  margin-left: auto;
+  margin-right: auto; 
+  width: auto;
+  height: 5px;
+  background-color: #A60321;
+}
+.espace{
+  height: 15px;
+}
+.ancrage1{
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#023373;
+  font-size: 25px;
+}
+.customnav{
+  background-color: #023373;
+}
+.bouton{
+  background-color: #F25C05;
+}
+.custom-fond
+{
+  background-color:#F25C05;
+}
+.text-nav{
+  text-decoration: none;
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:50px ;
+  color: #023373;
+
+}
+.text-nav:hover{
+  color: #A60321;
+  text-decoration: none;
+}
+.offcanvas-header{
+  text-align:center;
+  align-content: center;
+}
+.titrenav{
+  text-align:center;
+  align-content: center;
+}
+.bouton1{
+  background-color: #F25C05;
+  box-shadow: inset 2px 2px 3px rgba(242, 135, 5, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.bouton1:hover{
+  background-color: #F28705;
+}
+
+/* page boutique *******************************************************************************************************/
+
+
+/* boutique ********************************************************************************************************/
+.h3-custom{
+  font-family: alex-brush ,sans-serif;
+  font-size: 50px;
+  margin-top: 25px;
+}
+.product-grid9,.product-grid9 .product-image9{
+  position:relative
+}
+.product-grid9{
+  font-family: alex-brush ,sans-serif;
+  z-index:1;
+}
+.product-grid9 .product-image9 a{
+  display:block;
+}
+.product-grid9 .product-image9 img{
+  width:100%;
+  height:auto;
+  box-shadow: 5px 5px 5px black;
+}
+.product-grid9 .pic-1{
+  opacity:1;
+  transition:all .5s ease-out 0s;
+}
+.product-grid9:hover .pic-1{
+  opacity:0;
+}
+.product-grid9 .pic-2{
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0;
+  transition:all .5s ease-out 0s;
+}
+.product-grid9:hover .pic-2{
+  opacity:1;
+}
+.product-grid9 .product-full-view{
+  color:#023373;
+  background-color:#F25C05;
+  font-size:13px;
+  height:45px;
+  width:45px;
+  padding:18px;
+  border-radius:100px 0 0;
+  display:block;
+  opacity:0;
+  position:absolute;
+  right:0;
+  bottom:0;
+  transition:all .3s ease 0s;
+}
+.product-grid9 .product-full-view:hover{
+  color:#F25C05;
+}
+.product-grid9:hover .product-full-view{
+  opacity:1;
+}
+.product-grid9 .product-content{
+  padding:12px 12px 0;
+  overflow:hidden;
+  position:relative;
+}
+.product-content .rating{
+  padding:0;
+  margin:0 0 7px;
+  list-style:none;
+}
+.product-grid9 .rating li{
+  font-size:12px;
+  color:#ffd200;
+  transition:all .3s ease 0s;
+}
+.product-grid9 .rating li.disable{
+  color:rgba(0,0,0,.2);
+}
+.product-grid9 .title{
+  font-size:20px;
+  font-weight:400;
+  text-transform:capitalize;
+  margin:0 0 3px;
+  transition:all .3s ease 0s;
+}
+.product-grid9 .title a{
+  color:#023373;
+}
+.product-grid9 .title a:hover{
+  color:#F25C05;
+}
+.product-grid9 .price{
+  color:#A60321;
+  font-size:17px;
+  margin:0;
+  display:block;
+  transition:all .5s ease 0s;
+}
+.product-grid9:hover .price{
+  opacity:0;
+}
+.product-grid9 .add-to-cart{
+  display:block;
+  color:#F25C05;
+  font-weight:600;
+  font-size:20px;
+  opacity:0;
+  position:absolute;
+  left:10px;
+  bottom:-20px;
+  transition:all .5s ease 0s;
+}
+.product-grid9:hover .add-to-cart{
+  opacity:1;
+  bottom:0;
+}
